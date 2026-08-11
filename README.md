@@ -19,6 +19,13 @@ I'm an engineer based in Warsaw, Poland, working across **AI/LLM systems, roboti
 
 This account is where I keep my **open-source and personal engineering work**. Most repos are self-contained, documented, and built to production standards — you'll find evaluation frameworks, model gateways, robot-arm toolkits, and reusable web starters. Here's a map so you know where to look. 👇
 
+## 🔭 Currently working on
+
+- **AI-assisted, multi-agent quality engineering** — orchestrating agents for test planning, execution, and failure triage
+- **LLM evaluation & safety tooling** — extending [GroundedAI](https://github.com/brathod1432/GroundedAI) and [agent-eval-optimizer](https://github.com/brathod1432/agent-eval-optimizer)
+- **Production model infrastructure** — routing, caching, and observability in [NvidiaModelBridge](https://github.com/brathod1432/NvidiaModelBridge)
+- **Learning in public** — deepening AI infrastructure, platform engineering, and Kubernetes
+
 ## 🗺️ What you'll find here
 
 ### 🤖 AI & LLM Engineering
