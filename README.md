@@ -7,6 +7,7 @@
 
 <p align="center">
   <a href="https://brathod1432.github.io"><img src="https://img.shields.io/badge/Portfolio-brathod1432.github.io-7c5cff?style=for-the-badge" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/rbrijesh07/"><img src="https://img.shields.io/badge/LinkedIn-rbrijesh07-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:bgrathod00@gmail.com"><img src="https://img.shields.io/badge/Email-bgrathod00@gmail.com-22d3ee?style=for-the-badge" alt="Email"/></a>
 </p>
 
