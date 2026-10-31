@@ -32,12 +32,12 @@
 ## ✨ Featured work
 
 <p align="center">
-  <a href="https://github.com/brathod1432/ai-runbooks"><img src="./assets/cards/runbooks.svg" width="49%" alt="awesome-ai-runbooks"/></a>
-  <a href="https://github.com/brathod1432/ai-command-center"><img src="./assets/cards/helm.svg" width="49%" alt="Helm"/></a><br/>
-  <a href="https://github.com/brathod1432/oc_toolkit"><img src="./assets/cards/oc-toolkit.svg" width="49%" alt="oc_toolkit"/></a>
-  <img src="./assets/cards/apexassist.svg" width="49%" alt="ApexAssist"/><br/>
-  <a href="https://github.com/brathod1432/RBG_Candidate"><img src="./assets/cards/rbg-candidate.svg" width="49%" alt="RBG Candidate"/></a>
-  <a href="https://github.com/brathod1432/GroundedAI"><img src="./assets/cards/groundedai.svg" width="49%" alt="GroundedAI"/></a><br/>
+  <a href="https://github.com/brathod1432/ai-runbooks" title="Open awesome-ai-runbooks on GitHub"><img src="./assets/cards/runbooks.svg" width="49%" alt="awesome-ai-runbooks"/></a>
+  <a href="https://github.com/brathod1432/ai-command-center" title="Open Helm (ai-command-center) on GitHub"><img src="./assets/cards/helm.svg" width="49%" alt="Helm"/></a><br/>
+  <a href="https://github.com/brathod1432/oc_toolkit" title="Open oc_toolkit on GitHub"><img src="./assets/cards/oc-toolkit.svg" width="49%" alt="oc_toolkit"/></a>
+  <a href="https://brathod1432.github.io" title="ApexAssist is private - see my portfolio"><img src="./assets/cards/apexassist.svg" width="49%" alt="ApexAssist"/></a><br/>
+  <a href="https://github.com/brathod1432/RBG_Candidate" title="Open RBG Candidate on GitHub"><img src="./assets/cards/rbg-candidate.svg" width="49%" alt="RBG Candidate"/></a>
+  <a href="https://github.com/brathod1432/GroundedAI" title="Open GroundedAI on GitHub"><img src="./assets/cards/groundedai.svg" width="49%" alt="GroundedAI"/></a><br/>
 </p>
 
 <p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
