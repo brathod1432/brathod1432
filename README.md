@@ -23,8 +23,16 @@
 <p align="center">
   Warsaw-based engineer working where <b>AI agents</b>, <b>quality engineering</b> and <b>production software</b> meet.<br/>
   Senior Full-Stack Engineer at <b>Capgemini</b>, developing and integrating AI solutions on the <b>Neo</b> project.<br/>
+  Freelance <b>senior AI software consultant</b> — I design system architectures and ship new AI features & workflows for companies.<br/>
   Mechatronics & Robotics M.Sc. → test automation (previously leading automation at Dell) → full-stack AI engineering.<br/><br/>
   <i>AI should be operable, not just impressive — every agent gets a runbook, every model an eval, every product a human in the loop.</i>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AI%20Solution%20Architecture-7c5cff?style=flat-square&labelColor=0b0f1f" alt="AI Solution Architecture"/>
+  <img src="https://img.shields.io/badge/Agentic%20Systems-7c5cff?style=flat-square&labelColor=0b0f1f" alt="Agentic Systems"/>
+  <img src="https://img.shields.io/badge/AI%20Features%20%26%20Workflows-22d3ee?style=flat-square&labelColor=0b0f1f" alt="AI Features and Workflows"/>
+  <img src="https://img.shields.io/badge/Fractional%20%2F%20Freelance-22d3ee?style=flat-square&labelColor=0b0f1f" alt="Fractional / Freelance"/>
 </p>
 
 <p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
@@ -119,8 +127,17 @@
 <p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=brathod1432&show_icons=true&hide_border=true&bg_color=0b0f1f&title_color=a78bfa&icon_color=22d3ee&text_color=c9d1d9&count_private=true" height="160" alt="GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=brathod1432&layout=compact&hide_border=true&bg_color=0b0f1f&title_color=a78bfa&text_color=c9d1d9" height="160" alt="Top languages"/>
+  <a href="https://github.com/brathod1432?tab=followers"><img src="https://img.shields.io/github/followers/brathod1432?style=for-the-badge&logo=github&logoColor=white&label=Followers&color=7c5cff&labelColor=0b0f1f" alt="Followers"/></a>&nbsp;
+  <a href="https://github.com/brathod1432?tab=repositories"><img src="https://img.shields.io/badge/Repositories-20%2B-22d3ee?style=for-the-badge&logo=github&logoColor=white&labelColor=0b0f1f" alt="Repositories"/></a>&nbsp;
+  <img src="https://img.shields.io/badge/Focus-AI%20Agents%20·%20Full--Stack-a78bfa?style=for-the-badge&labelColor=0b0f1f" alt="Focus areas"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white" alt="Rust"/>
+  <img src="https://img.shields.io/badge/Markdown-083fa1?style=flat-square&logo=markdown&logoColor=white" alt="Markdown"/>
+  <img src="https://img.shields.io/badge/most%20used-across%2020%2B%20repos-7c5cff?style=flat-square&labelColor=0b0f1f" alt="Most-used languages"/>
 </p>
 
 <br/>
