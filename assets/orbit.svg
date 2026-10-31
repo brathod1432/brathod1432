@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" width="860" height="300" role="img" aria-label="Focus areas: AI agents, LLM evaluation, quality engineering, robotics, full-stack, automation">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b0f1f"/>
+      <stop offset="100%" stop-color="#161032"/>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c4b5fd"/>
+      <stop offset="55%" stop-color="#7c5cff"/>
+      <stop offset="100%" stop-color="#7c5cff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="0" x2="1">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22d3ee" stop-opacity=".9"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+      .ring { fill: none; stroke: #7c5cff; stroke-opacity: .28; stroke-dasharray: 4 8; }
+      .spin  { transform-origin: 430px 150px; animation: spin 26s linear infinite; }
+      .spinR { transform-origin: 430px 150px; animation: spin 38s linear infinite reverse; }
+      .pulse { transform-origin: 430px 150px; animation: pulse 3.2s ease-in-out infinite; }
+      .chip rect { fill: #11152b; stroke: #2a2f55; }
+      .chip text { fill: #e5e7ff; font-size: 13px; font-weight: 600; }
+      .c1 { animation: glow 6s ease-in-out infinite; }
+      .c2 { animation: glow 6s ease-in-out 1s infinite; }
+      .c3 { animation: glow 6s ease-in-out 2s infinite; }
+      .c4 { animation: glow 6s ease-in-out 3s infinite; }
+      .c5 { animation: glow 6s ease-in-out 4s infinite; }
+      .c6 { animation: glow 6s ease-in-out 5s infinite; }
+      .line { stroke: #7c5cff; stroke-opacity: .35; stroke-width: 1.2; stroke-dasharray: 3 5; animation: dash 2.4s linear infinite; }
+      .scan { animation: scan 5s ease-in-out infinite; }
+      .dot { fill: #22d3ee; }
+      @keyframes spin  { to { transform: rotate(360deg); } }
+      @keyframes pulse { 0%,100% { transform: scale(1); opacity: .85; } 50% { transform: scale(1.12); opacity: 1; } }
+      @keyframes glow  { 0%,70%,100% { stroke: #2a2f55; } 15% { stroke: #22d3ee; } }
+      @keyframes dash  { to { stroke-dashoffset: -16; } }
+      @keyframes scan  { 0% { transform: translateX(-860px); } 100% { transform: translateX(860px); } }
+    </style>
+  </defs>
+
+  <rect width="860" height="300" rx="18" fill="url(#bg)"/>
+  <rect class="scan" x="0" y="0" width="240" height="2" fill="url(#sweep)"/>
+  <rect class="scan" x="0" y="298" width="240" height="2" fill="url(#sweep)" style="animation-delay:2.5s"/>
+
+  <!-- connector lines -->
+  <line class="line" x1="430" y1="150" x2="168" y2="70"/>
+  <line class="line" x1="430" y1="150" x2="168" y2="150"/>
+  <line class="line" x1="430" y1="150" x2="168" y2="230"/>
+  <line class="line" x1="430" y1="150" x2="692" y2="70"/>
+  <line class="line" x1="430" y1="150" x2="692" y2="150"/>
+  <line class="line" x1="430" y1="150" x2="692" y2="230"/>
+
+  <!-- orbits -->
+  <g class="spin">
+    <circle class="ring" cx="430" cy="150" r="78"/>
+    <circle class="dot" cx="508" cy="150" r="4"/>
+    <circle class="dot" cx="352" cy="150" r="2.5" fill-opacity=".7"/>
+  </g>
+  <g class="spinR">
+    <circle class="ring" cx="430" cy="150" r="112"/>
+    <circle cx="430" cy="38" r="3.5" fill="#a78bfa"/>
+    <circle cx="430" cy="262" r="2.5" fill="#a78bfa" fill-opacity=".7"/>
+  </g>
+
+  <!-- core -->
+  <circle class="pulse" cx="430" cy="150" r="56" fill="url(#core)" opacity=".9"/>
+  <circle cx="430" cy="150" r="38" fill="#0b0f1f" stroke="#7c5cff" stroke-width="1.5"/>
+  <text x="430" y="146" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">reliably</text>
+  <text x="430" y="164" text-anchor="middle" fill="#22d3ee" font-size="15" font-weight="700">good</text>
+
+  <!-- chips left -->
+  <g class="chip"><rect class="c1" x="38"  y="52"  width="168" height="36" rx="18"/><text x="122" y="75"  text-anchor="middle">🤖 AI Agents</text></g>
+  <g class="chip"><rect class="c3" x="38"  y="132" width="168" height="36" rx="18"/><text x="122" y="155" text-anchor="middle">🧪 Quality Engineering</text></g>
+  <g class="chip"><rect class="c5" x="38"  y="212" width="168" height="36" rx="18"/><text x="122" y="235" text-anchor="middle">🦾 Robotics</text></g>
+  <!-- chips right -->
+  <g class="chip"><rect class="c2" x="654" y="52"  width="168" height="36" rx="18"/><text x="738" y="75"  text-anchor="middle">🛡️ LLM Evaluation</text></g>
+  <g class="chip"><rect class="c4" x="654" y="132" width="168" height="36" rx="18"/><text x="738" y="155" text-anchor="middle">⚙️ Automation · CI/CD</text></g>
+  <g class="chip"><rect class="c6" x="654" y="212" width="168" height="36" rx="18"/><text x="738" y="235" text-anchor="middle">🌐 Full-Stack SaaS</text></g>
+</svg>
