@@ -30,20 +30,14 @@
 
 ## ✨ Featured work
 
-<table>
-<tr>
-<td width="50%" align="center"><a href="https://github.com/brathod1432/ai-runbooks"><img src="./assets/cards/runbooks.svg" alt="awesome-ai-runbooks"/></a></td>
-<td width="50%" align="center"><a href="https://github.com/brathod1432/ai-command-center"><img src="./assets/cards/helm.svg" alt="Helm"/></a></td>
-</tr>
-<tr>
-<td width="50%" align="center"><a href="https://github.com/brathod1432/oc_toolkit"><img src="./assets/cards/oc-toolkit.svg" alt="oc_toolkit"/></a></td>
-<td width="50%" align="center"><img src="./assets/cards/apexassist.svg" alt="ApexAssist"/></td>
-</tr>
-<tr>
-<td width="50%" align="center"><a href="https://github.com/brathod1432/RBG_Candidate"><img src="./assets/cards/rbg-candidate.svg" alt="RBG Candidate"/></a></td>
-<td width="50%" align="center"><a href="https://github.com/brathod1432/GroundedAI"><img src="./assets/cards/groundedai.svg" alt="GroundedAI"/></a></td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://github.com/brathod1432/ai-runbooks"><img src="./assets/cards/runbooks.svg" width="49%" alt="awesome-ai-runbooks"/></a>
+  <a href="https://github.com/brathod1432/ai-command-center"><img src="./assets/cards/helm.svg" width="49%" alt="Helm"/></a><br/>
+  <a href="https://github.com/brathod1432/oc_toolkit"><img src="./assets/cards/oc-toolkit.svg" width="49%" alt="oc_toolkit"/></a>
+  <img src="./assets/cards/apexassist.svg" width="49%" alt="ApexAssist"/><br/>
+  <a href="https://github.com/brathod1432/RBG_Candidate"><img src="./assets/cards/rbg-candidate.svg" width="49%" alt="RBG Candidate"/></a>
+  <a href="https://github.com/brathod1432/GroundedAI"><img src="./assets/cards/groundedai.svg" width="49%" alt="GroundedAI"/></a><br/>
+</p>
 
 <p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>
 
@@ -53,7 +47,7 @@
 <summary>&nbsp;<b>AI agents & operations</b></summary>
 <br/>
 
-| | |
+| Project | What it does |
 |:--|:--|
 | [ai-agent-playbooks](https://github.com/brathod1432/ai-agent-playbooks) | Verifiable, evidence-first playbooks for coding agents |
 | [agent-studio](https://github.com/brathod1432/agent-studio) | Local-first, provider-agnostic agent workspace |
@@ -67,7 +61,7 @@
 <summary>&nbsp;<b>LLM evaluation & infrastructure</b></summary>
 <br/>
 
-| | |
+| Project | What it does |
 |:--|:--|
 | [agent-eval-optimizer](https://github.com/brathod1432/agent-eval-optimizer) | Trajectory scoring and regression gates for agents |
 | [NvidiaModelBridge](https://github.com/brathod1432/NvidiaModelBridge) | Production gateway for NVIDIA models — routing, caching, observability |
@@ -78,7 +72,7 @@
 <summary>&nbsp;<b>Quality engineering</b></summary>
 <br/>
 
-| | |
+| Project | What it does |
 |:--|:--|
 | [Sporty_Test](https://github.com/brathod1432/Sporty_Test) | Risk-based strategy, 42 API/UI checks and a defect vault |
 
@@ -88,7 +82,7 @@
 <summary>&nbsp;<b>Robotics & ML</b></summary>
 <br/>
 
-| | |
+| Project | What it does |
 |:--|:--|
 | [roboarm-ai-toolkit](https://github.com/brathod1432/roboarm-ai-toolkit) | Robot-arm kinematics, IK solvers and trajectory planning |
 | [parametric-robot-design-automation](https://github.com/brathod1432/parametric-robot-design-automation) | Parametric robot design with URDF / CAD / BOM export |
@@ -100,7 +94,7 @@
 <summary>&nbsp;<b>Full-stack starters</b></summary>
 <br/>
 
-| | |
+| Project | What it does |
 |:--|:--|
 | [saas-dashboard-demo](https://github.com/brathod1432/saas-dashboard-demo) | Enterprise SaaS dashboard with 3-layer RBAC |
 | [client-portal-starter](https://github.com/brathod1432/client-portal-starter) | Secure client portal with audit trail |
@@ -129,7 +123,7 @@
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=brathod1432&show_icons=true&hide_border=true&bg_color=0b0f1f&title_color=a78bfa&icon_color=22d3ee&text_color=c9d1d9&count_private=true" height="160" alt="GitHub stats"/>
-  <img src="https://streak-stats.demolab.com?user=brathod1432&hide_border=true&background=0b0f1f&ring=7c5cff&fire=22d3ee&currStreakLabel=a78bfa&sideLabels=c9d1d9&dates=8b949e&currStreakNum=ffffff&sideNums=ffffff" height="160" alt="Streak"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=brathod1432&layout=compact&hide_border=true&bg_color=0b0f1f&title_color=a78bfa&text_color=c9d1d9" height="160" alt="Top languages"/>
 </p>
 
 <br/>
