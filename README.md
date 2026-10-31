@@ -76,16 +76,6 @@
 </details>
 
 <details>
-<summary>&nbsp;<b>Quality engineering</b></summary>
-<br/>
-
-| Project | What it does |
-|:--|:--|
-| [Sporty_Test](https://github.com/brathod1432/Sporty_Test) | Risk-based strategy, 42 API/UI checks and a defect vault |
-
-</details>
-
-<details>
 <summary>&nbsp;<b>Robotics & ML</b></summary>
 <br/>
 
