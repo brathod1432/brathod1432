@@ -1,80 +1,120 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 300" width="860" height="300" role="img" aria-label="Focus areas: AI agents, LLM evaluation, quality engineering, robotics, full-stack, automation">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 330" width="860" height="330" role="img" aria-label="Focus areas: AI agents, LLM evaluation, quality engineering, automation and CI/CD, robotics, and full-stack engineering">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b0f1f"/>
-      <stop offset="100%" stop-color="#161032"/>
+      <stop offset="0" stop-color="#090c1c"/>
+      <stop offset=".55" stop-color="#121033"/>
+      <stop offset="1" stop-color="#0a1830"/>
     </linearGradient>
-    <radialGradient id="core" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#c4b5fd"/>
-      <stop offset="55%" stop-color="#7c5cff"/>
-      <stop offset="100%" stop-color="#7c5cff" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="sweep" x1="0" x2="1">
-      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#22d3ee" stop-opacity=".9"/>
-      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
-    </linearGradient>
+    <radialGradient id="blobA" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#7c5cff" stop-opacity=".55"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="blobB" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#22d3ee" stop-opacity=".40"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#c4b5fd"/><stop offset=".5" stop-color="#7c5cff"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ac" x1="0" x2="1"><stop offset="0" stop-color="#7c5cff"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <linearGradient id="sweep" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#22d3ee"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#7c5cff" stroke-opacity=".10"/></pattern>
+    <radialGradient id="fade" cx="50%" cy="50%" r="60%"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+    <mask id="gridMask"><rect width="860" height="330" fill="url(#fade)"/></mask>
+    <clipPath id="clip"><rect width="860" height="330" rx="20"/></clipPath>
     <style>
       text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
-      .ring { fill: none; stroke: #7c5cff; stroke-opacity: .28; stroke-dasharray: 4 8; }
-      .spin  { transform-origin: 430px 150px; animation: spin 26s linear infinite; }
-      .spinR { transform-origin: 430px 150px; animation: spin 38s linear infinite reverse; }
-      .pulse { transform-origin: 430px 150px; animation: pulse 3.2s ease-in-out infinite; }
-      .chip rect { fill: #11152b; stroke: #2a2f55; }
-      .chip text { fill: #e5e7ff; font-size: 13px; font-weight: 600; }
-      .c1 { animation: glow 6s ease-in-out infinite; }
-      .c2 { animation: glow 6s ease-in-out 1s infinite; }
-      .c3 { animation: glow 6s ease-in-out 2s infinite; }
-      .c4 { animation: glow 6s ease-in-out 3s infinite; }
-      .c5 { animation: glow 6s ease-in-out 4s infinite; }
-      .c6 { animation: glow 6s ease-in-out 5s infinite; }
-      .line { stroke: #7c5cff; stroke-opacity: .35; stroke-width: 1.2; stroke-dasharray: 3 5; animation: dash 2.4s linear infinite; }
-      .scan { animation: scan 5s ease-in-out infinite; }
+      .ring { fill: none; stroke: #7c5cff; stroke-opacity: .30; stroke-dasharray: 4 8; }
+      .spin  { transform-origin: 430px 150px; animation: spin 28s linear infinite; }
+      .spinR { transform-origin: 430px 150px; animation: spin 40s linear infinite reverse; }
+      .pulse { transform-origin: 430px 150px; animation: pulse 3.4s ease-in-out infinite; }
+      .drift1 { animation: drift 14s ease-in-out infinite; }
+      .drift2 { animation: drift 18s ease-in-out infinite reverse; }
+      .chip rect.b { fill: #101531; stroke: #2a3060; }
+      .chip text { fill: #e8eaff; font-size: 13.5px; font-weight: 600; }
+      .ic { fill: none; stroke: url(#ac); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+      .c1 rect.b { animation: glow 7.2s ease-in-out infinite; }
+      .c2 rect.b { animation: glow 7.2s ease-in-out 1.2s infinite; }
+      .c3 rect.b { animation: glow 7.2s ease-in-out 2.4s infinite; }
+      .c4 rect.b { animation: glow 7.2s ease-in-out 3.6s infinite; }
+      .c5 rect.b { animation: glow 7.2s ease-in-out 4.8s infinite; }
+      .c6 rect.b { animation: glow 7.2s ease-in-out 6s infinite; }
+      .line { stroke: #7c5cff; stroke-opacity: .38; stroke-width: 1.2; stroke-dasharray: 3 5; animation: dash 2.4s linear infinite; }
+      .scan { animation: scan 6s ease-in-out infinite; }
+      .tw1 { animation: tw 4s ease-in-out infinite; }
+      .tw2 { animation: tw 5s ease-in-out 1.4s infinite; }
+      .tw3 { animation: tw 6s ease-in-out 2.6s infinite; }
       .dot { fill: #22d3ee; }
       @keyframes spin  { to { transform: rotate(360deg); } }
       @keyframes pulse { 0%,100% { transform: scale(1); opacity: .85; } 50% { transform: scale(1.12); opacity: 1; } }
-      @keyframes glow  { 0%,70%,100% { stroke: #2a2f55; } 15% { stroke: #22d3ee; } }
+      @keyframes glow  { 0%,70%,100% { stroke: #2a3060; } 12% { stroke: #22d3ee; } }
       @keyframes dash  { to { stroke-dashoffset: -16; } }
-      @keyframes scan  { 0% { transform: translateX(-860px); } 100% { transform: translateX(860px); } }
+      @keyframes scan  { 0% { transform: translateX(-260px); } 100% { transform: translateX(880px); } }
+      @keyframes drift { 0%,100% { transform: translate(0,0); } 50% { transform: translate(34px,-14px); } }
+      @keyframes tw    { 0%,100% { opacity: .15; } 50% { opacity: .9; } }
     </style>
   </defs>
 
-  <rect width="860" height="300" rx="18" fill="url(#bg)"/>
-  <rect class="scan" x="0" y="0" width="240" height="2" fill="url(#sweep)"/>
-  <rect class="scan" x="0" y="298" width="240" height="2" fill="url(#sweep)" style="animation-delay:2.5s"/>
+  <g clip-path="url(#clip)">
+    <rect width="860" height="330" fill="url(#bg)"/>
+    <ellipse class="drift1" cx="180" cy="70" rx="260" ry="150" fill="url(#blobA)"/>
+    <ellipse class="drift2" cx="700" cy="270" rx="260" ry="150" fill="url(#blobB)"/>
+    <rect width="860" height="330" fill="url(#grid)" mask="url(#gridMask)"/>
 
-  <!-- connector lines -->
-  <line class="line" x1="430" y1="150" x2="168" y2="70"/>
-  <line class="line" x1="430" y1="150" x2="168" y2="150"/>
-  <line class="line" x1="430" y1="150" x2="168" y2="230"/>
-  <line class="line" x1="430" y1="150" x2="692" y2="70"/>
-  <line class="line" x1="430" y1="150" x2="692" y2="150"/>
-  <line class="line" x1="430" y1="150" x2="692" y2="230"/>
+    <!-- stars -->
+    <g fill="#c4b5fd">
+      <circle class="tw1" cx="92"  cy="30"  r="1.4"/><circle class="tw2" cx="260" cy="22"  r="1.1"/>
+      <circle class="tw3" cx="364" cy="46"  r="1.3"/><circle class="tw1" cx="560" cy="26"  r="1.2"/>
+      <circle class="tw2" cx="770" cy="38"  r="1.5"/><circle class="tw3" cx="826" cy="196" r="1.1"/>
+      <circle class="tw1" cx="44"  cy="214" r="1.2"/><circle class="tw2" cx="196" cy="276" r="1.3"/>
+      <circle class="tw3" cx="700" cy="286" r="1.2"/><circle class="tw1" cx="140" cy="292" r="1.1"/>
+    </g>
 
-  <!-- orbits -->
-  <g class="spin">
-    <circle class="ring" cx="430" cy="150" r="78"/>
-    <circle class="dot" cx="508" cy="150" r="4"/>
-    <circle class="dot" cx="352" cy="150" r="2.5" fill-opacity=".7"/>
+    <rect class="scan" x="0" y="0" width="260" height="2" fill="url(#sweep)"/>
+    <rect class="scan" x="0" y="328" width="260" height="2" fill="url(#sweep)" style="animation-delay:3s"/>
+
+    <!-- connectors -->
+    <line class="line" x1="430" y1="150" x2="226" y2="78"/>
+    <line class="line" x1="430" y1="150" x2="226" y2="150"/>
+    <line class="line" x1="430" y1="150" x2="226" y2="222"/>
+    <line class="line" x1="430" y1="150" x2="614" y2="78"/>
+    <line class="line" x1="430" y1="150" x2="614" y2="150"/>
+    <line class="line" x1="430" y1="150" x2="614" y2="222"/>
+
+    <!-- orbits -->
+    <g class="spin">
+      <circle class="ring" cx="430" cy="150" r="80"/>
+      <circle class="dot" cx="510" cy="150" r="4"/>
+      <circle class="dot" cx="350" cy="150" r="2.5" fill-opacity=".7"/>
+    </g>
+    <g class="spinR">
+      <circle class="ring" cx="430" cy="150" r="114"/>
+      <circle cx="430" cy="36" r="3.5" fill="#a78bfa"/>
+      <circle cx="430" cy="264" r="2.5" fill="#a78bfa" fill-opacity=".7"/>
+    </g>
+
+    <!-- core -->
+    <circle class="pulse" cx="430" cy="150" r="58" fill="url(#core)" opacity=".9"/>
+    <circle cx="430" cy="150" r="40" fill="#090c1c" stroke="url(#ac)" stroke-width="1.8"/>
+    <text x="430" y="146" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">Reliable</text>
+    <text x="430" y="165" text-anchor="middle" fill="#22d3ee" font-size="15" font-weight="700">AI</text>
+
+    <!-- left chips -->
+    <g class="chip c1"><rect class="b" x="36" y="58"  width="190" height="40" rx="20"/>
+      <g class="ic" transform="translate(54,68)"><circle cx="10" cy="4" r="2.6"/><circle cx="3.5" cy="16" r="2.6"/><circle cx="16.5" cy="16" r="2.6"/><path d="M8.6 6.4L4.9 13.6M11.4 6.4L15.1 13.6M6.2 16h7.6"/></g>
+      <text x="86" y="83">AI Agents</text></g>
+    <g class="chip c3"><rect class="b" x="36" y="130" width="190" height="40" rx="20"/>
+      <g class="ic" transform="translate(54,140)"><circle cx="10" cy="10" r="8.5"/><path d="M6 10.4l3 3 5-6"/></g>
+      <text x="86" y="155">Quality Engineering</text></g>
+    <g class="chip c5"><rect class="b" x="36" y="202" width="190" height="40" rx="20"/>
+      <g class="ic" transform="translate(54,212)"><circle cx="4" cy="17" r="2.4"/><circle cx="9" cy="6" r="2.4"/><circle cx="17" cy="9" r="2.4"/><path d="M5.2 14.9l2.7-6.6M11.3 6.8l3.4 1"/><path d="M1 19.5h18"/></g>
+      <text x="86" y="227">Robotics</text></g>
+
+    <!-- right chips -->
+    <g class="chip c2"><rect class="b" x="614" y="58"  width="210" height="40" rx="20"/>
+      <g class="ic" transform="translate(632,68)"><path d="M10 1.5l7 2.6v5.4c0 4.4-3 7.4-7 9-4-1.6-7-4.6-7-9V4.1z"/><path d="M6.8 10l2.4 2.4 4-4.6"/></g>
+      <text x="664" y="83">LLM Evaluation</text></g>
+    <g class="chip c4"><rect class="b" x="614" y="130" width="210" height="40" rx="20"/>
+      <g class="ic" transform="translate(632,140)"><path d="M16.5 7A7 7 0 0 0 4 5.5M3.5 13A7 7 0 0 0 16 14.5"/><path d="M16.8 2.6V7H12.4M3.2 17.4V13h4.4"/></g>
+      <text x="664" y="155">Automation &amp; CI/CD</text></g>
+    <g class="chip c6"><rect class="b" x="614" y="202" width="210" height="40" rx="20"/>
+      <g class="ic" transform="translate(632,212)"><path d="M10 2l8 4-8 4-8-4z"/><path d="M2 10l8 4 8-4M2 14l8 4 8-4"/></g>
+      <text x="664" y="227">Full-Stack Engineering</text></g>
+
+    <!-- tagline -->
+    <text x="430" y="304" text-anchor="middle" fill="#9aa3d8" font-size="13" letter-spacing=".4">Building AI systems that are measurable, testable and production-ready.</text>
   </g>
-  <g class="spinR">
-    <circle class="ring" cx="430" cy="150" r="112"/>
-    <circle cx="430" cy="38" r="3.5" fill="#a78bfa"/>
-    <circle cx="430" cy="262" r="2.5" fill="#a78bfa" fill-opacity=".7"/>
-  </g>
-
-  <!-- core -->
-  <circle class="pulse" cx="430" cy="150" r="56" fill="url(#core)" opacity=".9"/>
-  <circle cx="430" cy="150" r="38" fill="#0b0f1f" stroke="#7c5cff" stroke-width="1.5"/>
-  <text x="430" y="146" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="700">reliably</text>
-  <text x="430" y="164" text-anchor="middle" fill="#22d3ee" font-size="15" font-weight="700">good</text>
-
-  <!-- chips left -->
-  <g class="chip"><rect class="c1" x="38"  y="52"  width="168" height="36" rx="18"/><text x="122" y="75"  text-anchor="middle">🤖 AI Agents</text></g>
-  <g class="chip"><rect class="c3" x="38"  y="132" width="168" height="36" rx="18"/><text x="122" y="155" text-anchor="middle">🧪 Quality Engineering</text></g>
-  <g class="chip"><rect class="c5" x="38"  y="212" width="168" height="36" rx="18"/><text x="122" y="235" text-anchor="middle">🦾 Robotics</text></g>
-  <!-- chips right -->
-  <g class="chip"><rect class="c2" x="654" y="52"  width="168" height="36" rx="18"/><text x="738" y="75"  text-anchor="middle">🛡️ LLM Evaluation</text></g>
-  <g class="chip"><rect class="c4" x="654" y="132" width="168" height="36" rx="18"/><text x="738" y="155" text-anchor="middle">⚙️ Automation · CI/CD</text></g>
-  <g class="chip"><rect class="c6" x="654" y="212" width="168" height="36" rx="18"/><text x="738" y="235" text-anchor="middle">🌐 Full-Stack SaaS</text></g>
+  <rect x=".5" y=".5" width="859" height="329" rx="20" fill="none" stroke="#2a3060"/>
 </svg>
