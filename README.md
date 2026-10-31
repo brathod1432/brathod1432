@@ -33,11 +33,17 @@
 
 <p align="center">
   <a href="https://github.com/brathod1432/ai-runbooks" title="Open awesome-ai-runbooks on GitHub"><img src="./assets/cards/runbooks.svg" width="49%" alt="awesome-ai-runbooks"/></a>
-  <a href="https://github.com/brathod1432/ai-command-center" title="Open Helm (ai-command-center) on GitHub"><img src="./assets/cards/helm.svg" width="49%" alt="Helm"/></a><br/>
-  <a href="https://github.com/brathod1432/oc_toolkit" title="Open oc_toolkit on GitHub"><img src="./assets/cards/oc-toolkit.svg" width="49%" alt="oc_toolkit"/></a>
+  <a href="https://github.com/brathod1432/ai-agent-playbooks" title="Open ai-agent-playbooks on GitHub"><img src="./assets/cards/playbooks.svg" width="49%" alt="ai-agent-playbooks"/></a><br/>
+  <a href="https://github.com/brathod1432/skill-stack" title="Open skill-stack on GitHub"><img src="./assets/cards/skill-stack.svg" width="49%" alt="skill-stack"/></a>
+  <a href="https://github.com/brathod1432/ai-control-core" title="Open ai-control-core on GitHub"><img src="./assets/cards/ai-control-core.svg" width="49%" alt="ai-control-core"/></a><br/>
+  <a href="https://github.com/brathod1432/ai-command-center" title="Open Helm (ai-command-center) on GitHub"><img src="./assets/cards/helm.svg" width="49%" alt="Helm"/></a>
+  <a href="https://github.com/brathod1432/oc_toolkit" title="Open oc_toolkit on GitHub"><img src="./assets/cards/oc-toolkit.svg" width="49%" alt="oc_toolkit"/></a><br/>
+  <a href="https://github.com/brathod1432/agent-studio" title="Open agent-studio on GitHub"><img src="./assets/cards/agent-studio.svg" width="49%" alt="agent-studio"/></a>
   <a href="https://brathod1432.github.io" title="ApexAssist is private - see my portfolio"><img src="./assets/cards/apexassist.svg" width="49%" alt="ApexAssist"/></a><br/>
-  <a href="https://github.com/brathod1432/RBG_Candidate" title="Open RBG Candidate on GitHub"><img src="./assets/cards/rbg-candidate.svg" width="49%" alt="RBG Candidate"/></a>
-  <a href="https://github.com/brathod1432/GroundedAI" title="Open GroundedAI on GitHub"><img src="./assets/cards/groundedai.svg" width="49%" alt="GroundedAI"/></a><br/>
+  <a href="https://github.com/brathod1432/GroundedAI" title="Open GroundedAI on GitHub"><img src="./assets/cards/groundedai.svg" width="49%" alt="GroundedAI"/></a>
+  <a href="https://github.com/brathod1432/agent-eval-optimizer" title="Open agent-eval-optimizer on GitHub"><img src="./assets/cards/agent-eval-optimizer.svg" width="49%" alt="agent-eval-optimizer"/></a><br/>
+  <a href="https://github.com/brathod1432/NvidiaModelBridge" title="Open NvidiaModelBridge on GitHub"><img src="./assets/cards/nvidia-bridge.svg" width="49%" alt="NvidiaModelBridge"/></a>
+  <a href="https://github.com/brathod1432/RBG_Candidate" title="Open RBG Candidate on GitHub"><img src="./assets/cards/rbg-candidate.svg" width="49%" alt="RBG Candidate"/></a><br/>
 </p>
 
 <p align="center"><img src="./assets/divider.svg" width="100%" alt=""/></p>

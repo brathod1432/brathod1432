@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" width="440" height="200" role="img" aria-label="ai-agent-playbooks">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f1429"/><stop offset="1" stop-color="#171236"/></linearGradient>
+<linearGradient id="ac" x1="0" x2="1"><stop offset="0" stop-color="#7c5cff"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+<radialGradient id="glow" cx="75%" cy="45%" r="55%"><stop offset="0" stop-color="#7c5cff" stop-opacity=".28"/><stop offset="1" stop-color="#7c5cff" stop-opacity="0"/></radialGradient>
+<style>
+text{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+.lb{font-size:10.5px;font-weight:700;letter-spacing:1.6px;fill:#22d3ee}
+.t{font-size:22px;font-weight:700;fill:#fff}
+.d{font-size:12.5px;fill:#aab0d6}
+.chip{fill:#1b2145;stroke:#2d3566}
+.ct{font-size:10.5px;font-weight:600;fill:#cfd4ff}
+.stroke{fill:none;stroke:url(#ac);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.fill{fill:url(#ac)}
+.soft{fill:#232a57}
+.fl{animation:fl 5s ease-in-out infinite;animation-delay:0.2s}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.pu{transform-box:fill-box;transform-origin:center;animation:pu 2.8s ease-in-out infinite}
+@keyframes pu{0%,100%{transform:scale(1);opacity:.7}50%{transform:scale(1.25);opacity:1}}
+.dash{stroke-dasharray:4 6;animation:ds 1.6s linear infinite}
+@keyframes ds{to{stroke-dashoffset:-20}}
+.bar{transform-box:fill-box;transform-origin:bottom;animation:br 3.4s ease-in-out infinite}
+@keyframes br{0%,100%{transform:scaleY(.45)}50%{transform:scaleY(1)}}
+.scan{animation:sc 3.2s ease-in-out infinite}
+@keyframes sc{0%,100%{transform:translateY(0)}50%{transform:translateY(62px)}}
+.blink{animation:bk 3s steps(1) infinite}
+@keyframes bk{0%,60%{opacity:1}61%,100%{opacity:0}}
+.grow{transform-box:fill-box;transform-origin:left;animation:gr 4s ease-in-out infinite}
+@keyframes gr{0%{transform:scaleX(0)}60%,100%{transform:scaleX(1)}}
+.spin{transform-box:fill-box;transform-origin:center;animation:sp 14s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.sw{animation:sw 5s ease-in-out infinite}
+@keyframes sw{0%{transform:translateX(-460px)}100%{transform:translateX(460px)}}
+</style>
+<clipPath id="r"><rect width="440" height="200" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#r)">
+<rect width="440" height="200" fill="url(#bg)"/>
+<rect width="440" height="200" fill="url(#glow)"/>
+<rect class="sw" x="0" y="0" width="120" height="2" fill="url(#ac)" opacity=".9"/>
+<rect x="0" y="0" width="5" height="200" fill="url(#ac)"/>
+<text x="26" y="40" class="lb">AGENT PLAYBOOKS</text>
+<text x="26" y="72" class="t">ai-agent-playbooks</text>
+<text x="26" y="98" class="d">Evidence-first playbooks that</text><text x="26" y="117" class="d">coding agents follow to solve</text><text x="26" y="136" class="d">real engineering problems.</text>
+<g><rect x="26" y="156" width="91" height="22" rx="11" class="chip"/><text x="71" y="171" text-anchor="middle" class="ct">Claude Code</text></g><g><rect x="124.6" y="156" width="51" height="22" rx="11" class="chip"/><text x="150" y="171" text-anchor="middle" class="ct">Devin</text></g><g><rect x="183.6" y="156" width="58" height="22" rx="11" class="chip"/><text x="212" y="171" text-anchor="middle" class="ct">Cursor</text></g>
+<g transform="translate(262,34)"><g class="fl">
+<line x1="40" y1="30" x2="40" y2="62" class="stroke dash"/><line x1="40" y1="74" x2="40" y2="104" class="stroke dash"/>
+<circle cx="40" cy="22" r="13" class="soft" stroke="url(#ac)" stroke-width="2"/><text x="40" y="27" text-anchor="middle" style="font-size:13px;font-weight:700;fill:#fff">1</text>
+<circle cx="40" cy="68" r="13" class="soft" stroke="url(#ac)" stroke-width="2"/><text x="40" y="73" text-anchor="middle" style="font-size:13px;font-weight:700;fill:#fff">2</text>
+<circle cx="40" cy="112" r="13" fill="url(#ac)"/><path d="M33 112l5 5 9-10" fill="none" stroke="#0b0f1f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="64" y="14" width="76" height="6" rx="3" fill="#39428a"/><rect x="64" y="26" width="52" height="5" rx="2.5" fill="#2c3470"/>
+<rect x="64" y="60" width="66" height="6" rx="3" fill="#39428a"/><rect x="64" y="72" width="80" height="5" rx="2.5" fill="#2c3470"/>
+<rect x="64" y="104" width="58" height="6" rx="3" class="fill"/><rect x="64" y="116" width="40" height="5" rx="2.5" fill="#2c3470"/>
+</g><circle class="pu fill" cx="140" cy="8" r="5"/></g>
+</g>
+<rect x=".5" y=".5" width="439" height="199" rx="18" fill="none" stroke="#2a2f58"/>
+</svg>

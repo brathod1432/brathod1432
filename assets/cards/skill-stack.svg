@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" width="440" height="200" role="img" aria-label="skill-stack">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f1429"/><stop offset="1" stop-color="#171236"/></linearGradient>
+<linearGradient id="ac" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<radialGradient id="glow" cx="75%" cy="45%" r="55%"><stop offset="0" stop-color="#22d3ee" stop-opacity=".28"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+<style>
+text{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}
+.lb{font-size:10.5px;font-weight:700;letter-spacing:1.6px;fill:#a78bfa}
+.t{font-size:22px;font-weight:700;fill:#fff}
+.d{font-size:12.5px;fill:#aab0d6}
+.chip{fill:#1b2145;stroke:#2d3566}
+.ct{font-size:10.5px;font-weight:600;fill:#cfd4ff}
+.stroke{fill:none;stroke:url(#ac);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.fill{fill:url(#ac)}
+.soft{fill:#232a57}
+.fl{animation:fl 5s ease-in-out infinite;animation-delay:0.6s}
+@keyframes fl{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+.pu{transform-box:fill-box;transform-origin:center;animation:pu 2.8s ease-in-out infinite}
+@keyframes pu{0%,100%{transform:scale(1);opacity:.7}50%{transform:scale(1.25);opacity:1}}
+.dash{stroke-dasharray:4 6;animation:ds 1.6s linear infinite}
+@keyframes ds{to{stroke-dashoffset:-20}}
+.bar{transform-box:fill-box;transform-origin:bottom;animation:br 3.4s ease-in-out infinite}
+@keyframes br{0%,100%{transform:scaleY(.45)}50%{transform:scaleY(1)}}
+.scan{animation:sc 3.2s ease-in-out infinite}
+@keyframes sc{0%,100%{transform:translateY(0)}50%{transform:translateY(62px)}}
+.blink{animation:bk 3s steps(1) infinite}
+@keyframes bk{0%,60%{opacity:1}61%,100%{opacity:0}}
+.grow{transform-box:fill-box;transform-origin:left;animation:gr 4s ease-in-out infinite}
+@keyframes gr{0%{transform:scaleX(0)}60%,100%{transform:scaleX(1)}}
+.spin{transform-box:fill-box;transform-origin:center;animation:sp 14s linear infinite}
+@keyframes sp{to{transform:rotate(360deg)}}
+.sw{animation:sw 5s ease-in-out infinite}
+@keyframes sw{0%{transform:translateX(-460px)}100%{transform:translateX(460px)}}
+</style>
+<clipPath id="r"><rect width="440" height="200" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#r)">
+<rect width="440" height="200" fill="url(#bg)"/>
+<rect width="440" height="200" fill="url(#glow)"/>
+<rect class="sw" x="0" y="0" width="120" height="2" fill="url(#ac)" opacity=".9"/>
+<rect x="0" y="0" width="5" height="200" fill="url(#ac)"/>
+<text x="26" y="40" class="lb">SKILL LIBRARY</text>
+<text x="26" y="72" class="t">skill-stack</text>
+<text x="26" y="98" class="d">Agent-agnostic skills for</text><text x="26" y="117" class="d">developer and automation</text><text x="26" y="136" class="d">engineering work.</text>
+<g><rect x="26" y="156" width="58" height="22" rx="11" class="chip"/><text x="55" y="171" text-anchor="middle" class="ct">skills</text></g><g><rect x="91.6" y="156" width="110" height="22" rx="11" class="chip"/><text x="147" y="171" text-anchor="middle" class="ct">agent-agnostic</text></g><g><rect x="210.0" y="156" width="84" height="22" rx="11" class="chip"/><text x="252" y="171" text-anchor="middle" class="ct">automation</text></g>
+<g transform="translate(262,34)"><g class="fl">
+<rect x="26" y="78" width="100" height="30" rx="8" class="soft" stroke="#39428a"/>
+<rect x="18" y="50" width="100" height="30" rx="8" class="soft" stroke="#39428a"/>
+<rect x="34" y="22" width="100" height="30" rx="8" fill="#0f1429" stroke="url(#ac)" stroke-width="2"/>
+<path d="M60 37h22M60 44h40" class="stroke"/><circle cx="48" cy="40" r="4" class="fill pu"/>
+<rect x="30" y="62" width="30" height="5" rx="2.5" fill="#39428a"/><rect x="38" y="92" width="44" height="5" rx="2.5" fill="#39428a"/>
+</g><path d="M138 100l6 6 10-12" class="stroke" opacity="0"/></g>
+</g>
+<rect x=".5" y=".5" width="439" height="199" rx="18" fill="none" stroke="#2a2f58"/>
+</svg>
