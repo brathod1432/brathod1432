@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3400&pause=1000&color=A78BFA&center=true&vCenter=true&width=640&lines=Automation+Team+Lead+%40+Dell+Technologies;Building+AI+systems+that+are+reliably+good;Helped+10%2B+businesses+ship+AI+into+their+products" alt="Intro"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3400&pause=1000&color=A78BFA&center=true&vCenter=true&width=640&lines=Senior+Full-Stack+Engineer+%40+Capgemini+%C2%B7+Neo;Developing+and+integrating+AI+solutions+at+Capgemini;Building+AI+systems+that+are+reliably+good;Helped+10%2B+businesses+ship+AI+into+their+products" alt="Intro"/>
 </p>
 
 <p align="center">
@@ -22,7 +22,8 @@
 
 <p align="center">
   Warsaw-based engineer working where <b>AI agents</b>, <b>quality engineering</b> and <b>production software</b> meet.<br/>
-  Mechatronics & Robotics M.Sc. → test automation → leading automation for enterprise storage at <b>Dell</b>.<br/><br/>
+  Senior Full-Stack Engineer at <b>Capgemini</b>, developing and integrating AI solutions on the <b>Neo</b> project.<br/>
+  Mechatronics & Robotics M.Sc. → test automation (previously leading automation at Dell) → full-stack AI engineering.<br/><br/>
   <i>AI should be operable, not just impressive — every agent gets a runbook, every model an eval, every product a human in the loop.</i>
 </p>
 
