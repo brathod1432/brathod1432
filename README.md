@@ -32,58 +32,16 @@
 
 <table>
 <tr>
-<td width="50%" valign="top">
-
-#### 📚 [awesome-ai-runbooks](https://github.com/brathod1432/ai-runbooks)
-Operational runbooks for autonomous AI agents — SRE discipline for Claude Code, Devin, Cursor, LangGraph and MCP agents.
-
-<sub>48 runbooks · 1,016 tests · vendor-neutral</sub>
-
-</td>
-<td width="50%" valign="top">
-
-#### 🧭 [Helm · AI Command Center](https://github.com/brathod1432/ai-command-center)
-One governed view across email, Jira, GitHub, CRM and support. Ten agents give cited insights; humans approve every action.
-
-<sub>Next.js · RBAC · audit trail · WCAG 2.1 AA</sub>
-
-</td>
+<td width="50%" align="center"><a href="https://github.com/brathod1432/ai-runbooks"><img src="./assets/cards/runbooks.svg" alt="awesome-ai-runbooks"/></a></td>
+<td width="50%" align="center"><a href="https://github.com/brathod1432/ai-command-center"><img src="./assets/cards/helm.svg" alt="Helm"/></a></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-#### 🎛️ [oc_toolkit](https://github.com/brathod1432/oc_toolkit)
-Drop-in agents and skills for Open Code, orchestrated by **RBG_Runner** — discovery, dependency graph, scheduled triggers.
-
-<sub>12 agents · copy-and-go setup</sub>
-
-</td>
-<td width="50%" valign="top">
-
-#### 🖥️ ApexAssist <sub>private</sub>
-Desktop on-screen task assistant. One hotkey reads what's on screen and streams AI help into a lightweight overlay.
-
-<sub>Tauri · Rust · React · 445 tests</sub>
-
-</td>
+<td width="50%" align="center"><a href="https://github.com/brathod1432/oc_toolkit"><img src="./assets/cards/oc-toolkit.svg" alt="oc_toolkit"/></a></td>
+<td width="50%" align="center"><img src="./assets/cards/apexassist.svg" alt="ApexAssist"/></td>
 </tr>
 <tr>
-<td width="50%" valign="top">
-
-#### 🧩 [RBG Candidate](https://github.com/brathod1432/RBG_Candidate)
-Privacy-first browser extension that fills job applications with AI — encrypted on-device, reviewed before anything is filled.
-
-<sub>MV3 · FastAPI · 15 parallel workers</sub>
-
-</td>
-<td width="50%" valign="top">
-
-#### 🛡️ [GroundedAI](https://github.com/brathod1432/GroundedAI)
-Grounded LLM verification — hallucination scoring, claim/evidence checks, PII and prompt-injection shielding.
-
-<sub>FastAPI · evals · guardrails</sub>
-
-</td>
+<td width="50%" align="center"><a href="https://github.com/brathod1432/RBG_Candidate"><img src="./assets/cards/rbg-candidate.svg" alt="RBG Candidate"/></a></td>
+<td width="50%" align="center"><a href="https://github.com/brathod1432/GroundedAI"><img src="./assets/cards/groundedai.svg" alt="GroundedAI"/></a></td>
 </tr>
 </table>
 
