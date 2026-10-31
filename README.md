@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f1f,45:7c5cff,100:22d3ee&height=200&section=header&text=Brijesh%20Rathod&fontSize=54&fontColor=ffffff&fontAlignY=36&desc=AI%20Agents%20%C2%B7%20Quality%20Engineering%20%C2%B7%20Robotics&descSize=17&descAlignY=58&animation=fadeIn" width="100%" alt="Brijesh Rathod"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f1f,45:7c5cff,100:22d3ee&height=200&section=header&text=Brijesh%20Rathod&fontSize=54&fontColor=ffffff&fontAlignY=36&desc=AI%20Architecture%20%C2%B7%20Agents%20%C2%B7%20Full-Stack%20%C2%B7%20Freelance%20AI%20Consultant&descSize=16&descAlignY=58&animation=fadeIn" width="100%" alt="Brijesh Rathod"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3400&pause=1000&color=A78BFA&center=true&vCenter=true&width=640&lines=Senior+Full-Stack+Engineer+%40+Capgemini+%C2%B7+Neo;Developing+and+integrating+AI+solutions+at+Capgemini;Building+AI+systems+that+are+reliably+good;Helped+10%2B+businesses+ship+AI+into+their+products" alt="Intro"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=20&duration=3400&pause=1000&color=A78BFA&center=true&vCenter=true&width=640&lines=Senior+Full-Stack+Engineer+%40+Capgemini+%C2%B7+Neo;Freelance+senior+AI+software+consultant+%26+architect;I+design+AI+architectures%2C+features+%26+workflows;Building+AI+systems+that+are+reliably+good;Helped+10%2B+businesses+ship+AI+into+their+products" alt="Intro"/>
 </p>
 
 <p align="center">
